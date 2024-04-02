@@ -3,6 +3,7 @@ package run;
 import model.vo.Charger;
 import model.vo.Gate;
 import model.vo.card.Card;
+import model.vo.user.User;
 
 import java.util.Scanner;
 
@@ -21,6 +22,8 @@ public class App {
         int userId = sc.nextInt();
         System.out.println("1. 지하철 이용 / 2. 충전 : ");
         int selected = sc.nextInt();
+
+
 
         switch (selected) {
             case 1 : gate.menu(); break;

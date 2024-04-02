@@ -1,11 +1,19 @@
 package repository;
 
+import model.vo.card.Card;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class UserRepository {
     private int userId;
     private String name;
     private int age;
     private String card;
     private int price;
+
+    public UserRepository() {
+    }
 
     public UserRepository(int userId, String name, int age, String card) {
         this.userId = userId;
