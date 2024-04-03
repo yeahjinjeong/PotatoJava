@@ -5,6 +5,7 @@ import model.vo.card.Card;
 
 public class FeeInvoice {
 
+
     Gate gate = new Gate();
 
 //    String cardCase = gate.getCardCase(); // 카드 종류

@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class ClimateCard extends Card {
+public class ClimateCard extends UserRepository {
     private LocalDate begin;
     private LocalDate end;
     private boolean charged = false;
