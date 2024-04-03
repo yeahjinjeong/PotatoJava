@@ -22,6 +22,8 @@ public class App {
         System.out.println("1. 지하철 이용 / 2. 충전 : ");
         int selected = sc.nextInt();
 
+
+
         switch (selected) {
             case 1 : gate.menu(); break;
             case 2 :
